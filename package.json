@@ -1,7 +1,7 @@
 {
   "name": "@flashparking-lab/workflow-test",
   "version": "0.0.0",
-  "description": "Hello World",
+  "description": "Testing the workflow for FPQA Automation CI",
   "main": "server.js",
   "dependencies": {
     "express": "^4.13.3",
