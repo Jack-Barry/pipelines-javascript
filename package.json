@@ -35,10 +35,11 @@
     },
     "cz-emoji": {
       "conventional": true,
-      "symbol": true,
-      "skipQuestions": [
-        "scope"
-      ]
+      "scopes": [
+        "core",
+        "ancillary"
+      ],
+      "symbol": true
     }
   }
 }
