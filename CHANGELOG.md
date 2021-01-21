@@ -1,13 +1,11 @@
 ## 1.0.0-beta.1 (2021-01-21)
 
-
 ### Features
 
 * ✨  Switch prerelease to be beta and hotfix ([bf5f3a3](https://github.com/Jack-Barry/pipelines-javascript/commit/bf5f3a3715160c236ad845bc9ca08e4f26efd83d))
 * **ancillary:** ✨  Try specifying conventional commits as preset ([c36fb23](https://github.com/Jack-Barry/pipelines-javascript/commit/c36fb2330b032b7297c7da1e7e4de437be8c45a3))
 * **core:** ✨  Adding scopes to commit messages for test ([04dfcfa](https://github.com/Jack-Barry/pipelines-javascript/commit/04dfcfae77d86d74d55d03d468df284e04277aae))
 * ✨  Test adding in new feature for release ([524567d](https://github.com/Jack-Barry/pipelines-javascript/commit/524567d76cfec8d24a6f1725fd15b7a29829ad14))
-
 
 ### Bug Fixes
 
