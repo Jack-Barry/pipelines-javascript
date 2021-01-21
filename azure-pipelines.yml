@@ -3,6 +3,10 @@
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
+trigger:
+  branches:
+    - master
+    - dev
 pool:
   vmImage: 'ubuntu-latest'
 
@@ -12,7 +16,7 @@ variables:
 steps:
   - task: NodeTool@0
     inputs:
-      versionSpec: '10.x'
+      versionSpec: '14.x'
     displayName: 'Install Node.js'
 
   - script: |
