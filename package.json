@@ -1,6 +1,6 @@
 {
   "name": "@flashparking-lab/workflow-test",
-  "version": "0.0.0",
+  "version": "1.0.0-dev.1",
   "description": "Testing the workflow for FPQA Automation CI",
   "main": "server.js",
   "dependencies": {
