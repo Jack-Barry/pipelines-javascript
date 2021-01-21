@@ -37,7 +37,8 @@
     "cz-emoji": {
       "conventional": true,
       "scopes": [
-        "core"
+        "core",
+        "ancillary"
       ],
       "symbol": true
     }
