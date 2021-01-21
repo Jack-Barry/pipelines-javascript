@@ -7,7 +7,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  - group: 'Release Tooling'
+  - group: ReleaseTooling
 
 steps:
   - task: NodeTool@0
