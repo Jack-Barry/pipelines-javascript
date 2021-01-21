@@ -21,7 +21,8 @@
     "semantic-release": "^17.3.6"
   },
   "scripts": {
-    "build": "nyc --reporter=cobertura --reporter=html ./node_modules/.bin/mocha tests/**/*.js --reporter mocha-junit-reporter --reporter-options mochaFile=./TEST-RESULTS.xml"
+    "build": "nyc --reporter=cobertura --reporter=html ./node_modules/.bin/mocha tests/**/*.js --reporter mocha-junit-reporter --reporter-options mochaFile=./TEST-RESULTS.xml",
+    "semantic-release": "semantic-release"
   },
   "husky": {
     "hooks": {
