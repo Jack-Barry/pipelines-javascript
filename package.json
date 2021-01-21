@@ -36,8 +36,8 @@
     },
     "cz-emoji": {
       "conventional": true,
-      "skipQuestions": [
-        "scope"
+      "scopes": [
+        "core"
       ],
       "symbol": true
     }
