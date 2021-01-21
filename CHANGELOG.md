@@ -1,3 +1,10 @@
+### [1.0.1-beta.2](https://github.com/Jack-Barry/pipelines-javascript/compare/v1.0.1-beta.1...v1.0.1-beta.2) (2021-01-21)
+
+
+### Bug Fixes
+
+* **ancillary:** 🐛  Try workflow with rebasing ([084cff7](https://github.com/Jack-Barry/pipelines-javascript/commit/084cff783cc959352f44ab0b66bf7af5ccf0e328))
+
 ### [1.0.1-beta.1](https://github.com/Jack-Barry/pipelines-javascript/compare/v1.0.0...v1.0.1-beta.1) (2021-01-21)
 
 
