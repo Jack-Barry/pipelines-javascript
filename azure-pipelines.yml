@@ -26,5 +26,4 @@ steps:
       script: 'npx semantic-release'
     displayName: 'Semantic Release'
     env:
-      env:
-        GH_TOKEN: $(GH_TOKEN)
+      GH_TOKEN: $(GH_TOKEN)
