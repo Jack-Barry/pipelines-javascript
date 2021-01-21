@@ -3,11 +3,11 @@
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
-trigger:
-  - main
-
 pool:
   vmImage: 'ubuntu-latest'
+
+variables:
+  - group: ReleaseTooling
 
 steps:
   - task: NodeTool@0
@@ -20,6 +20,9 @@ steps:
       npm run build
     displayName: 'npm install and build'
 
-  - script: |
-      npx semantic-release
-    displayName: 'Semantic Release'
+  - task: Npm@1
+    inputs:
+      command: 'custom'
+      customCommand: 'run semantic-release'
+    env:
+      GH_TOKEN: $(GH_TOKEN)
