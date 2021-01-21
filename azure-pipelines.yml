@@ -20,10 +20,9 @@ steps:
       npm run build
     displayName: 'npm install and build'
 
-  - task: Bash@3
+  - task: Npm@1
     inputs:
-      targetType: 'inline'
-      script: 'npx semantic-release'
-    displayName: 'Semantic Release'
+      command: 'custom'
+      customCommand: 'run semantic-release'
     env:
       GH_TOKEN: $(GH_TOKEN)
