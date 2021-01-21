@@ -1,3 +1,15 @@
+### [1.0.1-beta.1](https://github.com/Jack-Barry/pipelines-javascript/compare/v1.0.0...v1.0.1-beta.1) (2021-01-21)
+
+
+### Features
+
+* ✨  Switch prerelease to be beta and hotfix ([bf5f3a3](https://github.com/Jack-Barry/pipelines-javascript/commit/bf5f3a3715160c236ad845bc9ca08e4f26efd83d))
+
+
+### Bug Fixes
+
+* **core:** 🐛  Reintroduce scope options to see if it triggers builds ([09d71f0](https://github.com/Jack-Barry/pipelines-javascript/commit/09d71f02696f7dc68a67ffff77ed569a4799de55))
+
 ## 1.0.0-beta.1 (2021-01-21)
 
 ### Features
