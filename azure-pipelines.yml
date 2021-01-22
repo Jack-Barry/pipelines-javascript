@@ -7,8 +7,10 @@ trigger:
   branches:
     include:
       - master
+      - hotfix
       - dev
       - beta
+
 pool:
   vmImage: 'ubuntu-latest'
 
