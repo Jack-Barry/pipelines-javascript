@@ -11,6 +11,19 @@
 * **ancillary:** 🐛  Try workflow with rebasing ([3452980](https://github.com/Jack-Barry/pipelines-javascript/commit/345298009b5e1dbf729ad9f5e554d4ca137cd792))
 * **core:** 🐛  Revert to singular hotfix branch ([c4edcf4](https://github.com/Jack-Barry/pipelines-javascript/commit/c4edcf48d5af070289684784f5d8095e7abbb02c))
 
+### [1.0.2-hotfix.2](https://github.com/Jack-Barry/pipelines-javascript/compare/v1.0.2-hotfix.1...v1.0.2-hotfix.2) (2021-01-22)
+
+
+### Features
+
+* **core:** ✨  Add fake feature ([d7d462d](https://github.com/Jack-Barry/pipelines-javascript/commit/d7d462d70001ae54bacec9f23e3d455fc72d6255))
+
+
+### Bug Fixes
+
+* **ancillary:** 🐛  Try workflow with rebasing ([3452980](https://github.com/Jack-Barry/pipelines-javascript/commit/345298009b5e1dbf729ad9f5e554d4ca137cd792))
+* **core:** 🐛  Revert to singular hotfix branch ([c4edcf4](https://github.com/Jack-Barry/pipelines-javascript/commit/c4edcf48d5af070289684784f5d8095e7abbb02c))
+
 ### [1.0.2-hotfix.1](https://github.com/Jack-Barry/pipelines-javascript/compare/v1.0.1...v1.0.2-hotfix.1) (2021-01-21)
 
 
